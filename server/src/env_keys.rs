@@ -1,0 +1,2 @@
+pub const APP_PORT: &str = "APP_PORT";
+pub const ALLOWED_ORIGIN_SUFFIXES: &str = "ALLOWED_ORIGIN_SUFFIXES";

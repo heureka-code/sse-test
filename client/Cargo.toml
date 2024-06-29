@@ -1,0 +1,15 @@
+[package]
+name = "client"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+dotenv = "0.15.0"
+futures = "0.3.30"
+gloo-net = { version = "0.5.0", features = ["eventsource"] }
+log = "0.4.22"
+sse-client = "1.1.1"
+wasm-bindgen-futures = "0.4.42"
+wasm-logger = "0.2.0"
+yew = { version = "0.21.0", features = ["csr"] }
+yew-hooks = "0.3.2"

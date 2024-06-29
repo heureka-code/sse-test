@@ -1,0 +1,14 @@
+[package]
+name = "server"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-cors = "0.7.0"
+actix-web = "4.8.0"
+actix-web-lab = "0.20.2"
+chrono = "0.4.38"
+dotenv = "0.15.0"
+env_logger = "0.11.3"
+log = "0.4.22"
+tokio = "1.38.0"
