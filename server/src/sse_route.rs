@@ -19,7 +19,7 @@ async fn stream_updates() -> impl Responder {
     let sse = sse::Sse::from_infallible_receiver(rx).with_retry_duration(Duration::from_secs(10));
     let sse = sse
         .customize()
-        .append_header(("Access-Control-Allow-Origin", "*"))
-        .append_header(("Access-Control-Allow-Headers", "content-type"));
+        .append_header(("access-control-allow-origin", "*"))
+        .append_header(("access-control-allow-headers", "content-type"));
     return sse;
 }
